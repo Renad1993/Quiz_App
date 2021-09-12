@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="8dp">
+
+            <TextView
+                android:id="@+id/question1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="8dp"
+                style="@style/question"
+                android:text="Q1:Counting systems are.... " />
+
+            <CheckBox
+                android:id="@+id/answer1_Q1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/answers"
+                android:text="Decimal system" />
+
+            <CheckBox
+                android:id="@+id/answer2_Q1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/answers"
+                android:text="Binary system" />
+
+            <CheckBox
+                android:id="@+id/answer3_Q1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/answers"
+                android:text="Sexagesimal system" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#9D9AA3" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="8dp">
+
+            <TextView
+                android:id="@+id/question2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="8dp"
+                style="@style/question"
+                android:text="Q2: The numerical system used by the Arabs and Muslims: " />
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/answer1_Q2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/answers"
+                    android:text="Decimal" />
+
+                <RadioButton
+                    android:id="@+id/answer2_Q2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/answers"
+                    android:text="binary" />
+
+                <RadioButton
+                    android:id="@+id/answer3_Q2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/answers"
+                    android:text="sixtieth" />
+
+                <RadioButton
+                    android:id="@+id/answer4_Q2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/answers"
+                    android:text="twelveth" />
+
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#9D9AA3" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="8dp">
+
+            <TextView
+                android:id="@+id/question"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="8dp"
+                style="@style/question"
+                android:text=" Q3: What is a numerical system ؟ " />
+
+            <EditText
+                android:id="@+id/answer_Q3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="answer"
+                style="@style/answers"
+                android:inputType="textMultiLine" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#9D9AA3" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="8dp">
+
+            <TextView
+                android:id="@+id/question4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="8dp"
+                style="@style/question"
+                android:text="Q4: The basis of the octal system is ? " />
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/answer1_Q4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/answers"
+                    android:text="10" />
+
+                <RadioButton
+                    android:id="@+id/answer2_Q4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/answers"
+                    android:text="(0,1,2,3,4,5,6,7,8,9)" />
+
+                <RadioButton
+                    android:id="@+id/answer3_Q4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/answers"
+                    android:text="8" />
+
+                <RadioButton
+                    android:id="@+id/answer4_Q4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/answers"
+                    android:text="(0,1)" />
+
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#9D9AA3" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="8dp">
+
+            <TextView
+                android:id="@+id/question5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="8dp"
+                style="@style/question"
+                android:text=" Q5: The system used in a computer is the system.........?" />
+
+            <EditText
+                android:id="@+id/answer_Q5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="answer"
+                style="@style/answers"
+                android:inputType="textCapWords" />
+
+        </LinearLayout>
+
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:layout_gravity="center_horizontal"
+            android:onClick="right"
+            android:text="submit" />
+
+    </LinearLayout>
+
+
+</ScrollView>
